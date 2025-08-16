@@ -7,8 +7,7 @@ export const Bio = {
     "I am a recent Computer Engineering graduate from RGPV, Bhopal, currently interning at C-DOT, Delhi, where I'm working on telecom and networking projects. Skilled in the MERN stack, Core Java, and SQL, I’m passionate about building scalable and user-friendly web applications. With a strong learning mindset, I’m eager to contribute to innovative software development teams.",
   github: "https://github.com/Sanjeet9297",
   resume:
-    "https://drive.google.com/file/d/1ZtQmKGg5B8RX2Al0jDEGkQ9NPoUqal8u/view?usp=drive_link",
-
+    "https://drive.google.com/file/d/1o4J9lcQgbTPvLIvZW1YvYCPFiOnJ9cm1/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sanjeet-kumar-722478258",
   twitter: "https://x.com/Sanjeet60282832?t=lzakqrTxB0WJ2qKB0Eqv_w&s=09",
   insta: "https://www.instagram.com/_itz_sanjeet_01/",
@@ -239,15 +238,16 @@ export const projects = [
 
   {
     id: 2,
-    title: "Bank Management System",
-    date: "Aug 2024 - Sep 2024",
+    title: "Quick AI",
+    date: "July 2025 - Aug 2025",
     description:
-      "Hello everyone ! I am feeling happy to share that with you all that I have developed: A Bank Management System app developed with Core Java, JDBC, and MySQL streamlines student, faculty, and administrative tasks. Utilizing Java's object-oriented approach,.",
-    image: "https://i0.wp.com/www.iedunote.com/img/1087/bank-management.jpg",
-    tags: ["Core java", "JDBC", "Oracle"],
+      "A full-stack AI productivity platform built with React.js, Express.js, Node.js, and Neon Database, offering multiple AI-driven tools in a single application. Users can write articles, generate blog titles, create images, remove backgrounds or objects from images, and review resumes with AI-powered suggestions. Integrated with the OpenAI API for intelligent content creation and image processing, the platform supports secure authentication, role-based premium access, and a responsive, user-friendly dashboard.",
+    image:
+      "https://res.cloudinary.com/dcfconybf/image/upload/v1755332323/Quick_ai_hqhy9d.png",
+    tags: ["React js", "Node js", "Express", "Neon"],
     category: "web app",
     github: "https://github.com/Sanjeet9297",
-    //webapp: "https://infosten.netlify.app/",
+    webapp: "https://infosten.netlify.app/",
     member: [
       {
         name: "Sanjeet Kumar",
