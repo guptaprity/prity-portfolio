@@ -178,7 +178,7 @@ const Navbar = ({ toggleTheme, darkMode }) => {
       <NavbarContainer>
         <NavLogo to="/">
           <ColorText>&lt;</ColorText>
-          <Span>Sanjeet Kumar</Span>
+          <Span>Prity Kumari</Span>
           {/* <div style={{ color: theme.primary }}>/</div> */}
           <ColorText>&gt;</ColorText>
         </NavLogo>

@@ -1,16 +1,16 @@
 export const Bio = {
-  name: "Sanjeet Kumar",
-  roles: ["Full Stack Web Developer", "MERN Stack Developer", "Programmer"],
+  name: "Prity Kumari",
+  roles: ["Full Stack Web Developer", "Java Developer", "Programmer"],
   description:
     // "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     // "I am a recent Computer Engineering graduate from Patel College of Science and Technology, RGPV, Bhopal. Currently, I am gaining valuable hands-on experience as an intern at C-DOT (Centre for Development of Telematics), Delhi, where I am working on cutting-edge projects in the telecom and networking domain.As a fresher, I am enthusiastic, quick to learn, and open to exploring various opportunities in software development, web development, or related fields.Experienced MERN Stack Developer with expertise in building scalable web applications using MongoDB, Express.js, React.js, and Node.js. Strong knowledge of SQL databases for efficient data management and retrieval. Proficient in Core Java, object-oriented programming, and backend services development. Passionate about full-stack development, creating optimized, secure, and user-friendly applications.",
-    "I am a recent Computer Engineering graduate from RGPV, Bhopal, currently interning at C-DOT, Delhi, where I'm working on telecom and networking projects. Skilled in the MERN stack, Core Java, and SQL, I’m passionate about building scalable and user-friendly web applications. With a strong learning mindset, I’m eager to contribute to innovative software development teams.",
-  github: "https://github.com/Sanjeet9297",
+    "I am a recent B.Tech Computer Science graduate from Jharkhand University of Technology, Ranchi. I have completed professional software engineering training and worked on real-time projects using Java, Spring Boot, RESTful APIs, SQL, and modern web technologies. I am passionate about building scalable and user-friendly applications and eager to contribute to innovative software development teams with a strong learning mindset.",
+  github: "https://github.com/guptaprity",
   resume:
-    "https://drive.google.com/file/d/1o4J9lcQgbTPvLIvZW1YvYCPFiOnJ9cm1/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/sanjeet-kumar-722478258",
-  twitter: "https://x.com/Sanjeet60282832?t=lzakqrTxB0WJ2qKB0Eqv_w&s=09",
-  insta: "https://www.instagram.com/_itz_sanjeet_01/",
+    "https://drive.google.com/file/d/1GXC-E1n37wXQSDBv-nT_U-IWkGy-dtZO/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/prity-gupta-mini/",
+  twitter: "https://x.com/pritysahu310",
+  insta: "",
   facebook: "",
 };
 
@@ -19,21 +19,11 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      // {
-      //   name: "Redux",
-      //   image:
-      //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      // },
-      {
-        name: "HTML",
+        name: "HTML5",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
-        name: "CSS",
+        name: "CSS3",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
@@ -43,14 +33,29 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
+        name: "React Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
-        name: "Taiwind CSS",
+        name: "Tailwind CSS",
         image:
           "https://res.cloudinary.com/dbgvjxepr/image/upload/v1731104880/tailwind_wft9uq.png",
+      },
+      {
+        name: "JSP",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/6/6b/JSP_logo.svg",
+      },
+      {
+        name: "Servlet",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxJ1i9r8H-Servlet&s",
       },
     ],
   },
@@ -58,36 +63,69 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Express.js ",
+        name: "Java",
         image:
-          // "https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png",
-          "https://logowik.com/content/uploads/images/express-js1720895488.logowik.com.webp",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTHPiu8yEcd-jZbz8HJAf5lWc3FxJpSmdpiA&s",
       },
       {
-        name: "Node.js ",
+        name: "Spring Core",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg",
       },
-
       {
-        name: "MongoDB ",
+        name: "Spring Boot",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg",
+      },
+      {
+        name: "Hibernate",
+        image:
+          "https://hibernate.org/images/hibernate-logo.svg",
+      },
+      {
+        name: "RESTful APIs",
         image:
           "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png",
       },
       {
-        name: "Oracle",
+        name: "Microservices",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/1087/1087840.png",
+      },
+    ],
+  },
+  {
+    title: "Databases & Servers",
+    skills: [
+      {
+        name: "MySQL",
+        image:
+          "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",
+      },
+      {
+        name: "Oracle DB",
         image:
           "https://www.inventateq.com/top-stories/wp-content/uploads/2024/05/oracle2.png.webp",
       },
       {
         name: "SQL",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+      },
+      {
+        name: "PL/SQL",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/5968/5968313.png",
+      },
+      {
+        name: "Apache Tomcat",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/f/fe/Apache_Tomcat_logo.svg",
       },
     ],
   },
   {
-    title: "Others",
+    title: "Tools & DevOps",
     skills: [
       {
         name: "Git",
@@ -100,72 +138,77 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "ECLIPSE",
+        name: "Eclipse IDE",
         image:
           "https://res.cloudinary.com/dpodwu487/image/upload/v1740671983/EC_qeptfg.png",
       },
-      {
-        name: "ORACLE",
+       {
+        name: "IntelliJ IDEA",
         image:
-          "https://res.cloudinary.com/dpodwu487/image/upload/v1740671990/ORACLE_fs0trc.png",
+          "https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg",
       },
       {
-        name: "Selenium Automation",
+        name: "Maven",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrJCsmcwI_xSfepecCQ2_WdxbVjO1eo42I9Q&s",
+          "https://upload.wikimedia.org/wikipedia/commons/5/52/Apache_Maven_logo.svg",
       },
       {
-        name: "C ",
+        name: "JUnit",
         image:
-          "https://raw.githubusercontent.com/github/explore/f3e22f0dca2be955676bc70d6214b95b13354ee8/topics/c/c.png",
+          "https://junit.org/junit5/assets/img/junit5-logo.png",
       },
       {
-        name: "C++ ",
+        name: "Jenkins",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg",
       },
       {
-        name: "Java ",
+        name: "Docker",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTHPiu8yEcd-jZbz8HJAf5lWc3FxJpSmdpiA&s",
+          "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
       },
     ],
   },
 ];
 
+
 export const trainings = [
   {
-    id: 3,
+    id: 5,
     img: "https://res.cloudinary.com/dpodwu487/image/upload/v1740671241/nit_jn2rho.png",
-    company: "NARESH IT",
-    date: "Aug 2024 - JUNE 2025",
-    desc: "During the 10-month training period (Aug 2024 -JUNE 2025), I completed Full Stack Web Development",
-    //java certificate add krna hai
-    skills: ["Java Full Stack"],
-    doc: "https://res.cloudinary.com/dkeehisnj/image/upload/v1750226455/nareshit_certificate_dgzvth.jpg",
+    company: "Naresh i Technologies",
+    date: "Nov 2025",
+    desc: "Completed the Full Stack Java Developer Program covering Core Java, Advanced Java (JDBC, Servlets, JSP), Spring Boot, Hibernate, React.js, MySQL, and full-stack project development.",
+    skills: ["Core Java", "Advanced Java", "Spring Boot", "Hibernate", "React.js", "MySQL"],
+    doc: "",
   },
+  {
+    id: 4,
+    img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+    company: "Oracle",
+    date: "Oct 2025",
+    desc: "Certified as Oracle Cloud Infrastructure (OCI) 2025 Certified Developer Professional, validating skills in developing cloud-native applications using OCI services such as compute, storage, API Gateway, functions, and DevOps tools.",
+    skills: ["OCI", "Cloud Native Applications", "DevOps", "API Gateway"],
+    doc: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766404288/Cloud_leiskz.png",
+  },
+  {
+    id: 3,
+    img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+    company: "Oracle",
+    date: "Oct 2025",
+    desc: "Earned Oracle Database@AWS Certified Architect Professional certification, demonstrating expertise in architecting, deploying, and managing Oracle Database on AWS with high availability, security, performance tuning, and cloud integration best practices.",
+    skills: ["Oracle Database", "AWS", "Cloud Architecture", "High Availability"],
+    doc: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766404117/Screenshot_2025-12-22_171345_s3zcst.png",
+  },
+ 
   {
     id: 1,
     img: "https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/e4af8a911f5ddde287c6f700836bd3ad.jpeg",
     company: "Apna College",
     date: "July 2023 - Feb 2024",
-    desc: "During the 6-month training period (August 2023 - February 2024), I completed Full Stack Web Development",
+    desc: "Completed Full Stack Web Development training with a focus on MERN stack fundamentals and project-based learning.",
     skills: ["MERN Full Stack Developer"],
-    doc: "https://res.cloudinary.com/dkeehisnj/image/upload/v1750225138/delta_certificate_xpn5ek.jpg",
-  },
-  {
-    id: 0,
-    img: "https://media.licdn.com/dms/image/v2/C510BAQFkB0u3hL5gMw/company-logo_200_200/company-logo_200_200/0/1630573617759/cdotindia_logo?e=2147483647&v=beta&t=4tr63ZBKqDn1x10n-KVVSgg8Cq6IIFHqxRxHND7z3lU",
-    company: "C-Dot Delhi",
-    date: "Feb 2025 - Aug 2025",
-    desc: "During my 6-month internship at C-DOT, I worked extensively on MERN Stack development, gaining practical experience in building full-stack web applications. I also contributed to a Selenium-based automation project and participated in a group project focused on 4G network automation, enhancing both my technical skills and collaborative abilities. This experience strengthened my understanding of real-world software development and automation in the telecom domain.",
-    skills: ["MERN Full Stack Development, Selenium Webdriver Automation"],
-    doc: "",
+    doc: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766404498/mern_klpn0h.png",
   },
 ];
 
@@ -185,148 +228,208 @@ export const experiences = [
 export const education = [
   {
     id: 2,
-    img: "https://res.cloudinary.com/dpodwu487/image/upload/v1740670711/Patel-College-of-Science-and-Technology-Bhopal1_xewkvm.webp",
-    school: "Patel college of Science and Technology, Bhopal",
-    date: "Jun 2021 - May 2025",
-    grade: "76.20%",
-    desc: "I have completed my Bachelor's degree in Computer Science and Engineering from Patel College of Science and Technology, RGPV University, Bhopal, with a CGPA of 7.62. During my studies, I completed courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, which have built a strong foundation in core computer science concepts.",
+    img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766416556/dav_fzspqc.png",
+    school: "DAV Institute of ENgineering & Technology, Palamu",
+    date: "Nov 2021 - Aug 2025",
+    grade: "7.6 CGPA",
+    desc: "I have completed my Bachelor's degree in Computer Science and Engineering from DAVIET of Science and Technology, Jharkhand University & Technology, Bhopal, with a CGPA of 7.6. During my studies, I completed courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, which have built a strong foundation in core computer science concepts.",
     degree: "Bachelor of Technology - B.Tech, Computer Science and Engineering",
   },
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlsMBdpzCDbIB4OTrP3E9PBG6NTgCUnlEh8kZOHGOjFn_PnHt6EVl2E1Ns7NDcivpnGqQ&usqp=CAU",
-    school: "Govt Giriwar Inter College, Daltonganj",
+    img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766416682/hqdefault_qp9fx2.jpg",
+    school: "Janta Shivratri College, Daltonganj",
     date: "Apr 2019 - May 2021",
-    grade: "75.00%",
-    desc: "I completed my class 12 high school education at Govt Giriwar Inter College, Daltonganj, where I studied Science with maths.",
+    grade: "68.8%",
+    desc: "I completed my class 12 high school education at Janta Shivratri College, Daltonganj, where I studied Science with maths.",
     degree: "ISC(XII), Science with Maths",
   },
   {
     id: 0,
-    img: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npdBLr0yEmCdIrQb0tWxZ6U8yN0M4WtSyhu4zRjXnZVX3h-Rj6OEQWjndcLNAg7skfUXYVrSaku4JDucfVVfL9090bnNDKTtOqlx97zo0hHa3N2rtNPKvJH_LReSxrPBFhf63d_=s1360-w1360-h1020-rw",
-    school: "J K V High School Daltonganj, Bairiya",
+    img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766416773/mission_wqn6vm.jpg",
+    school: "BCC Mission Girls School",
     date: "Apr 2018 - Apr 2019",
-    grade: "74.40%",
-    desc: "I completed my class 10 education at J K V High School Daltonganj, Bairiya, where I studied various subjects including Mathematics, Science, Social Science, English, Hindi and Sanskrit.",
+    grade: "85.2%",
+    desc: "I completed my class 10 education at BCC Mission Girl's High School Daltonganj, Bairiya, where I studied various subjects including Mathematics, Science, Social Science, English, Hindi and Sanskrit.",
     degree: "Matriculation",
   },
 ];
 
 export const projects = [
   {
-    id: 3,
-    title: "Todo App",
-    date: "Sep 2023 - Oct 2023",
+    id: 7,
+    title: "Snake Game",
+    date: "2024",
     description:
-      "Built a ToDo app using React.js with features like adding, deleting, and marking tasks as completed. Used React state and props for dynamic UI updates.",
+      "Developed a classic Snake Game using HTML, CSS, and JavaScript with real-time keyboard controls, score tracking, and game-over logic.",
     image:
-      "https://res.cloudinary.com/dkeehisnj/image/upload/v1750264013/Screenshot_2025-06-18_215640_ymkgvh.png",
-    tags: ["React.js "],
-    category: "web app",
-    github: "https://github.com/Sanjeet9297",
-    webapp: "'",
-    member: [
-      {
-        name: "Sanjeet Kumar",
-
-        img: "https://res.cloudinary.com/dkeehisnj/image/upload/v1750227731/sanjeet_img_dpslet.jpg",
-        linkedin: "https://www.linkedin.com/in/sanjeet-kumar-722478258",
-        github: "https://github.com/Sanjeet9297",
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    title: "Quick AI",
-    date: "July 2025 - Aug 2025",
-    description:
-      "A full-stack AI productivity platform built with React.js, Express.js, Node.js, and Neon Database, offering multiple AI-driven tools in a single application. Users can write articles, generate blog titles, create images, remove backgrounds or objects from images, and review resumes with AI-powered suggestions. Integrated with the OpenAI API for intelligent content creation and image processing, the platform supports secure authentication, role-based premium access, and a responsive, user-friendly dashboard.",
-    image:
-      "https://res.cloudinary.com/dcfconybf/image/upload/v1755332323/Quick_ai_hqhy9d.png",
-    tags: ["React js", "Node js", "Express", "Neon"],
-    category: "web app",
-    github: "https://github.com/Sanjeet9297",
-    webapp: "https://infosten.netlify.app/",
-    member: [
-      {
-        name: "Sanjeet Kumar",
-        img: "https://res.cloudinary.com/dkeehisnj/image/upload/v1750227731/sanjeet_img_dpslet.jpg",
-        linkedin: "https://www.linkedin.com/in/sanjeet-kumar-722478258",
-        github: "https://github.com/Sanjeet9297",
-      },
-    ],
-  },
-
-  {
-    id: 1,
-    title: "Weather App",
-    date: "Jan 2024 - Feb 2024",
-    description:
-      "Created a weather app using HTML, CSS, and JavaScript. Used HTML to build the structure, CSS to style the interface, and JavaScript to fetch and display real-time weather data from an API.",
-    image:
-      "https://res.cloudinary.com/dkeehisnj/image/upload/v1750263878/Screenshot_2025-06-18_215417_bpdbsm.png",
+      "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409435/Snake_OG-logo_ok7njt.jpg",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
-    github: "https://github.com/Sanjeet9297",
+    github: "https://github.com/guptaprity/SnakeGame",
     webapp: "",
     member: [
       {
-        name: "Sanjeet Kumar",
-        img: "https://res.cloudinary.com/dkeehisnj/image/upload/v1750227731/sanjeet_img_dpslet.jpg",
-        linkedin: "https://www.linkedin.com/in/sanjeet-kumar-722478258",
-        github: "https://github.com/Sanjeet9297",
+        name: "Prity Kumari",
+        img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409968/HeroImg1_w1uiv6.jpg",
+        linkedin: "",
+        github: "https://github.com/guptaprity",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Simon Game",
+    date: "2024",
+    description:
+      "Built an interactive Simon Game using JavaScript that tests memory skills with increasing difficulty, sound effects, and dynamic UI updates.",
+    image:
+      "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409574/simon-says-game_e4emuf.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "web app",
+    github: "https://github.com/guptaprity/SimonGame",
+    webapp: "",
+    member: [
+      {
+        name: "Prity Kumari",
+        img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409968/HeroImg1_w1uiv6.jpg",
+        linkedin: "",
+        github: "https://github.com/guptaprity",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Email Writer Assistant (Full Stack)",
+    date: "2025",
+    description:
+      "Developed a full-stack AI-powered Email Writer Assistant that generates professional emails using user input, focusing on productivity and usability.",
+    image:
+      "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766406850/emailassist_eejfsl.png",
+    tags: ["Java", "Spring Boot", "REST API", "AI"],
+    category: "web app",
+    github: "https://github.com/guptaprity/Email-Writer-Assitant-Fullstack",
+    webapp: "",
+    member: [
+      {
+        name: "Prity Kumari",
+        img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409968/HeroImg1_w1uiv6.jpg",
+        linkedin: "",
+        github: "https://github.com/guptaprity",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Mini AI Application",
+    date: "2025",
+    description:
+      "Created a Mini AI application providing multiple AI-based utilities, focusing on clean UI, API integration, and efficient response handling.",
+    image:
+      "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766406590/MINI-ai_dytuxa.png",
+    tags: ["JavaScript", "AI", "API Integration"],
+    category: "web app",
+    github: "https://github.com/guptaprity/Mini-AI",
+    webapp: "",
+    member: [
+      {
+        name: "Prity Kumari",
+        img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409968/HeroImg1_w1uiv6.jpg",
+        linkedin: "",
+        github: "https://github.com/guptaprity",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Complaint Box System",
+    date: "2024",
+    description:
+      "Built a Complaint Box web application to register, manage, and track user complaints with a simple and user-friendly interface.",
+    image:
+      "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766406679/complain_ev5wa0.png",
+    tags: ["Java", "JSP", "Servlet", "MySQL"],
+    category: "web app",
+    github: "https://github.com/guptaprity/ComplainBox",
+    webapp: "",
+    member: [
+      {
+        name: "Prity Kumari",
+        img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409968/HeroImg1_w1uiv6.jpg",
+        linkedin: "",
+        github: "https://github.com/guptaprity",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "My First Blog",
+    date: "2023",
+    description:
+      "Developed a basic blog application allowing users to create and read posts, helping understand CRUD operations and web fundamentals.",
+    image:
+      "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766406850/emailassist_eejfsl.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "web app",
+    github: "https://github.com/guptaprity/my-first-blog1",
+    webapp: "",
+    member: [
+      {
+        name: "Prity Kumari",
+        img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409968/HeroImg1_w1uiv6.jpg",
+        linkedin: "",
+        github: "https://github.com/guptaprity",
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Java Practice Programs",
+    date: "2024",
+    description:
+      "Practiced Core Java and Advanced Java concepts including OOPs, collections, JDBC, and exception handling through hands-on coding.",
+    image:
+      "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766410169/java_fh5tdk.png",
+    tags: ["Core Java", "Advanced Java"],
+    category: "backend",
+    github: "https://github.com/guptaprity/Naresh-IT_Practice_In-Java",
+    webapp: "",
+    member: [
+      {
+        name: "Prity Kumari",
+        img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409968/HeroImg1_w1uiv6.jpg",
+        linkedin: "",
+        github: "https://github.com/guptaprity",
       },
     ],
   },
   {
     id: 0,
-    title: "Hotel Management  System",
-    date: "Oct 2024 - Nov 2024",
+    title: "Card Template Project",
+    date: "2023",
     description:
-      "The Front Desk Hotel Management System is a GUI-based project developed in java, designed specifically for managing front desk operations in a hotel environment. This system enables streamlined management of guest check-ins, check-outs, and reservations, tailored for efficient service delivery at the front desk. Key functionalities include user registration, login, and booking management. It securely handles client details such as name, reservation number, contact information, and room preferences, ensuring a smooth, organized guest experience from arrival to departure.",
+      "Designed responsive card templates using HTML and CSS, focusing on layout design, responsiveness, and UI consistency.",
     image:
-      "https://res.cloudinary.com/dbgvjxepr/image/upload/v1731102356/Hotel_h0ctuz.jpg",
-    tags: ["Java, MySQL"],
-    category: "gui application",
-    github: "https://github.com/Sanjeet9297",
+      "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409880/card_eajxpr.png",
+    tags: ["HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/guptaprity/CardTemplate",
     webapp: "",
     member: [
       {
-        name: "Sanjeet kumar ",
-        img: "https://res.cloudinary.com/dkeehisnj/image/upload/v1750227731/sanjeet_img_dpslet.jpg",
-        linkedin: "https://www.linkedin.com/in/sanjeet-kumar-722478258/",
-        github: "https://github.com/Sanjeet9297",
-      },
-      {
-        name: "Sanjay Kumar Mahto",
-        img: "https://res.cloudinary.com/dpodwu487/image/upload/v1740669760/IMG_20231217_000002_470_gyvhgr.jpg",
-        linkedin: "https://www.linkedin.com/in/sanjay-kumar-mahto-605956255/",
-        github: "https://github.com/Sanjayk32072/Film-Fusion",
-      },
-
-      {
-        name: "Rajkumar yadav",
-        //raj pic
-        img: "https://res.cloudinary.com/dpodwu487/image/upload/v1740669630/IMG-20250227-WA0000_oqss5h.jpg",
-        linkedin: "https://www.linkedin.com/in/rajkumaryadav12/",
-        github: "https://github.com/rajkumar70040",
-      },
-      {
-        name: "Rajesh kumar",
-
-        img: "https://res.cloudinary.com/dpodwu487/image/upload/v1740669631/IMG-20250227-WA0001_akxjcg.jpg",
-        linkedin: " https://www.linkedin.com/in/rajesh-kumar-mahto01012001/",
-        github: "",
+        name: "Prity Kumari",
+        img: "https://res.cloudinary.com/dahyyvfs3/image/upload/v1766409968/HeroImg1_w1uiv6.jpg",
+        linkedin: "",
+        github: "https://github.com/guptaprity",
       },
     ],
   },
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: "Started my journey" },
-  { year: 2022, text: "Worked as a front-end developer" },
-  { year: 2023, text: "Founded JavaScript Mastery" },
-  { year: 2024, text: "Shared my projects with the world" },
-  { year: 2025, text: "Started my own platform" },
+  { year: 2021, text: "Started B.Tech in Computer Science" },
+  { year: 2022, text: "Learned programming fundamentals and web basics" },
+  { year: 2023, text: "Built frontend projects using HTML, CSS, and JavaScript" },
+  { year: 2024, text: "Developed Java and full-stack projects" },
+  { year: 2025, text: "Focused on Java Full Stack and AI-based applications" },
 ];

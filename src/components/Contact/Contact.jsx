@@ -1,7 +1,8 @@
 import { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
-import { Snackbar } from "@mui/material";
+emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
+import { Snackbar, Alert } from "@mui/material";
 
 const Container = styled.div`
   display: flex;
@@ -135,10 +136,9 @@ const Contact = () => {
   const [open, setOpen] = useState(false);
   const form = useRef();
 
-
-   // Send the initial email
   const handleSubmit = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -147,37 +147,15 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
-        (result) => {
+        () => {
           setOpen(true);
           form.current.reset();
-          console.log(result);
         },
         (error) => {
-          console.log(error.text);
-        }
-      );
-    // Send the confirmation email
-    const senderEmail = form.current.user_email.value; // Assuming the form has an input with name="user_email"
-    emailjs
-      .send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_CONFIRMATION_TEMPLATE_ID, // New template ID for confirmation email
-        {
-          to_email: senderEmail,
-          to_name: form.current.user_name.value, // Assuming the form has an input with name="user_name"
-        },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        (confirmationResult) => {
-          console.log('Confirmation email sent:', confirmationResult);
-        },
-        (confirmationError) => {
-          console.log('Error sending confirmation email:', confirmationError.text);
+          console.error("EmailJS Error:", error.text);
         }
       );
   };
-
 
   return (
     <Container>
@@ -186,27 +164,48 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
+
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="user_email" required />
-          <ContactInput placeholder="Your Name" name="user_name" required />
-          <ContactInput placeholder="Subject" name="from_subject" required />
+
+          <ContactInput
+            placeholder="Your Email"
+            name="user_email"
+            required
+          />
+
+          <ContactInput
+            placeholder="Your Name"
+            name="user_name"
+            required
+          />
+
+          <ContactInput
+            placeholder="Subject"
+            name="from_subject"
+            required
+          />
+
           <ContactInputMessage
             placeholder="Message"
             rows="4"
             name="message"
             required
           />
+
           <ContactButton type="submit" value="Send Message" />
         </ContactForm>
 
+        {/* ✅ Correct Snackbar */}
         <Snackbar
           open={open}
-          autoHideDuration={6000}
+          autoHideDuration={4000}
           onClose={() => setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
+        >
+          <Alert severity="success" onClose={() => setOpen(false)}>
+            Email sent successfully!
+          </Alert>
+        </Snackbar>
       </Wrapper>
     </Container>
   );

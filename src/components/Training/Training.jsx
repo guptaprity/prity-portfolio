@@ -74,10 +74,11 @@ const Training = () => {
   return (
     <Container id="training">
       <Wrapper>
-        <Title>Training</Title>
+        <Title>Training & Certification</Title>
         <Desc>
-          My training involved working as a software engineer across various
-          companies and projects.
+         My training involved working as a software engineer on real-time projects 
+          using industry-standard technologies.
+
         </Desc>
         <TimelineSection>
           <Timeline>

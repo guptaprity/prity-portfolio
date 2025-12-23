@@ -89,7 +89,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Sanjeet Kumar</Logo>
+        <Logo>Prity Kumari</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -112,7 +112,7 @@ const Footer = () => {
               <EmailIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; {currentYear} Sanjeet Kumar. All rights reserved.</Copyright>
+        <Copyright>&copy; {currentYear} Prity Kumari. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
