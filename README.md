@@ -1,4 +1,4 @@
-# 🌐 Prity Kumari — Developer Portfolio
+ # 🌐 Prity Kumari — Developer Portfolio
 
 [![Netlify Status](https://img.shields.io/badge/Deployed%20on-Netlify-brightgreen)](https://pritykumariportfolio.netlify.app/)
 ![React](https://img.shields.io/badge/React-18-blue)
